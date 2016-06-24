@@ -61,7 +61,8 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="din-cp-Ixg">
                                 <rect key="frame" x="20" y="106" width="280" height="116"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <accessibility key="accessibilityConfiguration" label="bigNumber"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

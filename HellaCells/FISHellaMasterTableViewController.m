@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView.accessibilityIdentifier = @"";
+    self.tableView.accessibilityIdentifier = @"Table";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,7 +49,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 
-    FISHellaDetailViewController *detailVC = (FISHellaDetailViewController *)segue.destinationViewController;
+    FISHellaDetailViewController *detailVC = segue.destinationViewController;
     
     NSIndexPath *selectedInexPath = [self.tableView indexPathForSelectedRow];
     
